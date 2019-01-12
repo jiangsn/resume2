@@ -1,0 +1,33 @@
+.token.selector{
+    color: lightslategrey;
+  }
+  .token.property{
+    color: lightslategrey;
+  }
+  .token.function{
+    color: lightslategrey;
+  }
+  /* #code{
+ 
+      animation-name: rotateY;
+      animation-duration: 3s;
+      animation-delay: 0.5s;
+      animation-iteration-count: 1;
+  
+  }
+  @keyframes rotateY {
+    from { transform: rotateY(0); }
+    to {transform: rotateY(40deg);}
+} */
+
+#code{
+  border-radius: 60px;
+}
+@keyframes breath{
+  0%{
+    box-shadow: 0 0 10px #f5f2f0;
+  }
+  100%{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2)
+  }
+}
